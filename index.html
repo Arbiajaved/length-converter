@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <link rel =" stylesheet" href="style.css">
+</head>
+<body>
+    <p class="top-text">Type a value in any of the fields to convert between Length measurements:</p>
+    <div class="container">
+    <p>Length Converter</p>    
+    <div class="input container"><label for ="feet">Feet</label><input type="number" name=""  id="feet" oninput="convertToOthers('feet',this.value)"></div>
+    <div class="input container"><label for ="meter">Meter</label><input type="number" name=""  id="meter" oninput="convertToOthers('meter',this.value)"></div>
+    <div class="input container"><label for ="inch">Inches</label><input type="number" name=""  id="inch" oninput="convertToOthers('inch',this.value)"></div>
+    <div class="input container"><label for ="cm">CM</label><input type="number" name=""  id="cm" oninput="convertToOthers('cm',this.value)"></div>
+    <div class="input container"><label for ="yard">Yards</label><input type="number" name=""  id="yard" oninput="convertToOthers('yard',this.value)"></div>
+    <div class="input container"><label for ="km">Kilometers</label><input type="number" name=""  id="km" oninput="convertToOthers('km',this.value)"></div>
+    <div class="input container"><label for ="miles">Miles</label><input type="number" name=""  id="miles" oninput="convertToOthers('miles',this.value)"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
